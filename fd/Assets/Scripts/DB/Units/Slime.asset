@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c146568704cf194aa763796b2911c71, type: 3}
+  m_Name: Slime
+  m_EditorClassIdentifier: 
+  uname: "\uC2AC\uB77C\uC784"
+  hp: 5
+  sp: 80
+  atk: 0
+  def: 1
+  satk: 3
+  sdef: 0
+  growthRate: 1
+  skillType: 4
+  SkillCooldown: 120
+  skillDuration: 0
+  skillStamina: 0
+  skillPower: 10
+  skillName: "\uC790\uAC00 \uCE58\uC720"
+  aiType: 2
+  spawnFloor: {x: 1, y: 19}
+  dropTable:
+  - item:
+      itemCode: 7
+      itemMetadata: 1
+      itemDurability: 1
+      itemAmount: 1
+      fakename: "\uBE44\uC0C1 \uC2DD\uB7C9(\uC18C)"
+      isPublicInfo: 0
+    itemCode: 7
+    dropRate: 0.1
+  dropGold: {x: 5, y: 10}
+  needGoldMultiplierByFloor: 1

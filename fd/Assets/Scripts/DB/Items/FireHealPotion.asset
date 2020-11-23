@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b9fb629df2a2b41831fefaf1d80633, type: 3}
+  m_Name: FireHealPotion
+  m_EditorClassIdentifier: 
+  iname: "\uD654\uC0C1 \uD68C\uBCF5\uC758 \uD3EC\uC158"
+  description: "\uD654\uC0C1\uC5D0\uC11C \uBE60\uB974\uAC8C \uB098\uC744 \uC218 \uC788\uB2E4."
+  price: 10
+  floor: {x: 0, y: 0}
+  isPublicInfo: 1
+  itemType: 0
+  maxStack: 1
+  itemThumbnail: {fileID: 21300000, guid: ace8a02646afeda4880fc3cb14cad705, type: 3}
+  potionPowerType: 0
+  potionType: 5
+  potionDelay: 0
+  potionPower: 1
+  attackType: 0
+  attackPower: 1
+  attackDelay: 1
+  attackStamina: 1
+  attackRange: 1
+  durability: 20
+  relicType: 0

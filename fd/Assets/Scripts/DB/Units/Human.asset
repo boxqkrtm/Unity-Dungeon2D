@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c146568704cf194aa763796b2911c71, type: 3}
+  m_Name: Human
+  m_EditorClassIdentifier: 
+  uname: "\uC778\uAC04"
+  hp: 15
+  sp: 20
+  atk: 2
+  def: 1
+  satk: 2
+  sdef: 1
+  growthRate: 3
+  skillType: 2
+  SkillCooldown: 60
+  skillDuration: 0
+  skillStamina: 5
+  skillPower: 1
+  skillName: "\uC544\uC774\uD15C \uAC10\uC815"
+  aiType: 0
+  spawnFloor: {x: 1, y: 1}
+  dropTable: []
+  dropGold: {x: 0, y: 0}
+  needGoldMultiplierByFloor: 0
