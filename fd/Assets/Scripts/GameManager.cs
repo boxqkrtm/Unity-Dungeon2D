@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     MapGenerator mg;
     GameObject player;
     public bool isPlayerInteract;
-    PlayerStatusController psController;
+    public PlayerStatusController psController;
     //GameLog
     public GameLog gameLog;
     //Debug Counter
@@ -125,7 +125,8 @@ public class GameManager : MonoBehaviour
         Vector2 playerPos = player.transform.position;
         GameObject dpItem = Instantiate(droppedItem, new Vector3(Mathf.Round(playerPos.x), Mathf.Round(playerPos.y), 0), Quaternion.identity);
         DroppedItem ditem = dpItem.GetComponent<DroppedItem>();
-        ditem.SetItem(new Item(Random.Range(1, 21), 1, 0));
+        //ditem.SetItem(new Item(Random.Range(1, 22), 1, 0));
+        ditem.SetItem(new Item(21, 1, 0));
     }
 
     public void TestSpawnMob()

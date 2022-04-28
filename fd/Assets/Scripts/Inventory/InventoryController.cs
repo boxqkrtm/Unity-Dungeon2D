@@ -503,6 +503,10 @@ public class InventoryController : MonoBehaviour
                             gm.AddGameLog("더 이상 먹을 수 없다.");
                         }
                     }
+                    else if (itemInfo.potionType == PotionType.LevelUp)
+                    {
+                        gm.psController.Exp += gm.psController.MaxExp;
+                    }
                     else
                     {
                         gm.AddGameLog("오류 : 미구현 포션");

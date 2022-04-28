@@ -6,7 +6,7 @@ using TMPro;
 
 public class PlayerStatusController : MonoBehaviour
 {
-    UnitInfo unitInfo;
+    public UnitInfo unitInfo;
     GameManager gm;
     Image hpBar;
     Image spBar;
